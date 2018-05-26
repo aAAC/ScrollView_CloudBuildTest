@@ -171,6 +171,7 @@ namespace Your.Namespace.Here18May22021555788.Lists
 	}
 
 
+
 	// BaseParamsWithPrefabAndData<TModel> is the most commonly used type of parameters for ListViews.
 	// It exposes a prefab property and the data is stored in a System.Collections.Generic.List<T>
 	// Alternatives are: 
@@ -206,6 +207,8 @@ namespace Your.Namespace.Here18May22021555788.Lists
 			root.GetComponentAtPath("BackgroundImage", out backgroundImage);
 			*/
 		}
+
+
 
 		// Override this if you have children layout groups. They need to be marked for rebuild when this callback is fired
 		/*
